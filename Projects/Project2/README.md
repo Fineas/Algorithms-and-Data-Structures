@@ -9,7 +9,7 @@ The solution to Josephus' problem is in the `simulate()` function which basicall
  - if n is not a power of 2, then the following formula can be applied: 
  considering $2^m < n < 2^{m+1}$, the last man will be on position: $2 * (n - 2^m) + 1$
 
-![Emulation](https://github.com/Fineas/Algorithms-and-Data-Structures/tree/master/Projects/Project2/img/emulation.PNG )
+![Emulation](https://raw.githubusercontent.com/Fineas/Algorithms-and-Data-Structures/master/Projects/Project2/img/emulation.PNG )
 
 - **Code Design:**
 
