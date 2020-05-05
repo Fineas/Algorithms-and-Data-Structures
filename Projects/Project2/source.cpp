@@ -92,6 +92,25 @@ class CircularList{
             }
             cout<<"_______|"<<endl<<endl;
         }
+        void print_third(){
+            if(node_counter < 1){
+                cout<<" Not enough Nodes. "<<endl<<endl;
+                return;
+            }
+            else{
+                int start;
+                cout<<" Starting Position: ";
+                cin>>start;
+                Node* j = nullptr; Node *i = nullptr;
+                for(i = last->next; i != last; i=i->next){
+                    if(i->data == start){
+                        cout<<" Third Node is [ "<<i->next->next->data<<" ]"<<endl<<endl;
+                        return;
+                    }
+                }
+            }
+            cout<<" Node not found! "<<endl<<endl;
+        }    
 };
 
 CircularList josephus_prob(last);
@@ -189,7 +208,7 @@ int main(){
                 }
                 break;
             case 4:
-
+                josephus_prob.print_third();
                 break;
             case 5:
                 josephus_prob.display_list();
