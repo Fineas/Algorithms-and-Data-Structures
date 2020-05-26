@@ -1,0 +1,8 @@
+7
+MicrosoftWord v7.0 14 100 
+BitdefenderAntivirus v2.0 22 75 
+IDAPro v7.4 73 500 
+Slack v1.0 1000 15 
+Discord v10.1 50 50 
+WolframPro v3.2 100 77 
+CACA v1337 1 1234 
